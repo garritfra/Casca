@@ -9,6 +9,11 @@ public class Player {
         this.inventory = new Inventory();
     }
 
+    public Player() {
+        this.name = "Player";
+        this.inventory = new Inventory();
+    }
+
     public Inventory getInventory() {
         return inventory;
     }
